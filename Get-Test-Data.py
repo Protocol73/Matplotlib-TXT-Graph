@@ -1,10 +1,8 @@
 
-# to get a graph from txt file
+#Graph from a txt file
 import Tkinter as tk
 import ttk
-
 import matplotlib
-
 matplotlib.use("TkAgg")
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg, NavigationToolbar2TkAgg
 import matplotlib.animation as animation
